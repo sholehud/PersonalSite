@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Abel&display=swap');
+
+    * {
+        font-family: 'Abel', sans-serif;
+    }
+
+    .container {
+        margin-top: 100px;
+    }
+
+    h1 {
+        text-transform: uppercase;
+    }
+
+    span {
+        font-size: 32px;
+    }
+
+    img {
+        margin: 20px auto;
+        width: 280px;
+        height: 280px;
+        display: block;
+    }
+
+    @media (max-width: 400px) {
+        img {
+            width: 180px;
+            height: 180px;
+        }
+
+        p {
+            font-size: 12px;
+        }
+
+        span {
+            font-size: 22px;
+        }
+
+        a {
+            font-size: 18px;
+        }
+    }
