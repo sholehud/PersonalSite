@@ -23,6 +23,6 @@ var x = setInterval(function () {
         document.getElementById("info").innerHTML = "Maaf, website ini sedang dalam perbaikan. Anda bisa mengunjungi media lain dibawah ini:";
         document.getElementById("fb").innerHTML = "Facebook";
         document.getElementById("ig").innerHTML = "Instagram";
-        document.getElementById("ig").innerHTML = "Linkedin";
+        document.getElementById("in").innerHTML = "Linkedin";
     }
 }, 1000);
