@@ -19,8 +19,8 @@ var x = setInterval(function () {
         document.getElementById("in").innerHTML = "Linkedin";
     } else {
         clearInterval(x);
-        document.getElementById("waktu").innerHTML = "Waktu Habis";
-        document.getElementById("info").innerHTML = "";
+        document.getElementById("waktu").innerHTML = "";
+        document.getElementById("info").innerHTML = "Maaf, website ini sedang dalam perbaikan. Anda bisa mengunjungi media lain dibawah ini:";
         document.getElementById("fb").innerHTML = "Facebook";
         document.getElementById("ig").innerHTML = "Instagram";
         document.getElementById("ig").innerHTML = "Linkedin";
